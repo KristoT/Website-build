@@ -1,8 +1,11 @@
+<<<<<<< Updated upstream
 //setup date
 const date = document.getElementById('date');
 if (date) {
   date.innerHTML = new Date().getFullYear();
 }
+=======
+>>>>>>> Stashed changes
 // setup nav
 const navBtn = document.getElementById('nav-btn');
 const navbar = document.getElementById('navbar');
@@ -20,3 +23,13 @@ if (navClose) {
   });
 }
 // close nav
+<<<<<<< Updated upstream
+=======
+navClose.addEventListener("click", () => {
+  navbar.classList.remove("showNav");
+});
+//setup date
+const date = (document.getElementById(
+  "date"
+).innerHTML = new Date().getFullYear());
+>>>>>>> Stashed changes
